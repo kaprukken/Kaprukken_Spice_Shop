@@ -1,0 +1,905 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>KAPRUK Spice Shop</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ::::::::::::::Favicon icon::::::::::::::-->
+    <!-- <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- ::::::::::::::All CSS Files here :::::::::::::: -->
+
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="../assets/css/vendor/jquery-ui.min.css">
+    <link rel="stylesheet" href="../assets/css/vendor/fontawesome.css">
+    <link rel="stylesheet" href="../assets/css/vendor/plaza-icon.css">
+    <link rel="stylesheet" href="../assets/css/vendor/bootstrap.min.css">
+    
+    <!-- Plugin CSS Files -->
+    <link rel="stylesheet" href="../assets/css/plugin/slick.css">
+    <link rel="stylesheet" href="../assets/css/plugin/material-scrolltop.css">
+    <link rel="stylesheet" href="../assets/css/plugin/price_range_style.css">
+    <link rel="stylesheet" href="../assets/css/plugin/in-number.css">
+    <link rel="stylesheet" href="../assets/css/plugin/venobox.min.css">
+    <link rel="stylesheet" href="../assets/css/plugin/jquery.lineProgressbar.css">
+
+    <!-- Use the minified version files listed below for better performance and remove the files listed above -->
+    <!-- <link rel="stylesheet" href="assets/css/vendor/vendor.min.css"/>
+    <link rel="stylesheet" href="assets/css/plugin/plugins.min.css"/>
+    <link rel="stylesheet" href="assets/css/main.min.css"> -->
+
+    <!-- Main Style CSS File -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <!--  Start Large Header Section   -->
+        <div class="header d-none d-lg-block">
+
+            <!-- Start Header Center area -->
+            <div class="header__center sticky-header p-tb-10">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-between align-items-center">
+                            <!-- Start Logo -->
+                            <div class="header__logo">
+                                <a href="../index.html" class="header__logo-link img-responsive">
+                                    <img class="header__logo-img img-fluid" src="/assets/img/logo/kapruk.png" alt="kapruk Logo">
+                                </a>
+                            </div> <!-- End Logo -->
+                             <!-- Start Header Menu -->
+                             <div class="header-menu">
+                                <nav>
+                                    <ul class="header__nav">
+                                        <!--Start Single Nav link-->
+                                        <li class="header__nav-item pos-relative">
+                                            <a href="../index.html" class="header__nav-link">Home</a>
+                                        </li> 
+                                        <!-- End Single Nav link-->
+            
+                                        <!--Start Single Nav link-->
+                                        <li class="header__nav-item pos-relative">
+                                            <a href="#" class="header__nav-link">Shop <i class="fal fa-chevron-down"></i></a>
+                                            <span class="menu-label menu-label--blue">New</span>
+                                            <!--Single Dropdown Menu-->
+                                            <ul class="dropdown__menu pos-absolute">
+                                                <li class="dropdown__list"><a href="spices.html" class="dropdown__link">Spices</a></li>
+                                                <li class="dropdown__list"><a href="drygrains.html" class="dropdown__link">Dry Grains</a></li>
+                                                <li class="dropdown__list"><a href="rice.html" class="dropdown__link">Rice</a></li>
+                                                <li class="dropdown__list"><a href="milkpowder.html" class="dropdown__link">Milk Powder</a></li>
+                                                <li class="dropdown__list"><a href="teacoffeandotherbeverages.html" class="dropdown__link">Tea, Coffee & Other Beverages</a></li>
+                                                <li class="dropdown__list"><a href="driedfish.html" class="dropdown__link">Dried Fish</a></li>
+                                                <li class="dropdown__list"><a href="meatsandfish.html" class="dropdown__link">Meats and Fish</a></li>
+                                                <li class="dropdown__list">
+                                                        <a href="#" class="dropdown__link d-flex justify-content-between align-items-center">Processed Foods<i class="far fa-chevron-right"></i></a>
+                                                        <ul class="dropdown__submenu pos-absolute">
+                                                            <li class="dropdown__submenu-list"><a href="cannedfoods.html" class="dropdown__submenu-link">Canned Foods</a></li>
+                                                            <li class="dropdown__submenu-list"><a href="bottledfoods.html" class="dropdown__submenu-link">Bottled Foods</a></li>
+                                                        </ul>
+                                                </li>
+                                                <li class="dropdown__list"><a href="rotty.html" class="dropdown__link">Rotty</a></li>
+                                                <li class="dropdown__list"><a href="flours.html" class="dropdown__link">Flours</a></li>
+                                                <li class="dropdown__list"><a href="various.html" class="dropdown__link">Various</a></li>
+                                                <li class="dropdown__list"><a href="biscuitsandsweets.html" class="dropdown__link">Biscuits and Sweets</a></li>
+                                                <li class="dropdown__list"><a href="medicines.html" class="dropdown__link">Medicines</a></li>
+                                            </ul>
+                                            <!--Single Dropdown Menu-->
+                                        </li> <!-- End Single Nav link-->
+            
+
+                                        <!--Start Single Nav link-->
+                                        <li class="header__nav-item pos-relative">
+                                                <a href="../contact.html" class="header__nav-link">Contact Us</a>
+                                        </li> <!-- End Single Nav link-->
+                                    </ul>
+                                </nav>
+                            </div> <!-- End Header Menu -->
+                            <!-- Start Wishlist-AddCart -->
+                            <div class="header__user-action-icon">
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End Header Center area -->
+        </div> <!--  End Large Header Section  -->
+
+        <!--  Start Mobile Header Section   -->
+        <div class="header__mobile mobile-header--1 d-block d-lg-none p-tb-20">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-12 d-flex align-items-center justify-content-between">
+                        <ul class="header__mobile--leftside d-flex align-items-center justify-content-start">
+                            <li>
+                                <div class="header__mobile-logo">
+                                    <a href="../index.html" class="header__mobile-logo-link">
+                                        <img src="/assets/img/logo/kapruk.png" alt="" class="header__mobile-logo-img">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- Start User Action -->
+                        <ul class="header__mobile--rightside header__user-action-icon  d-flex align-items-center justify-content-end"> 
+                            <!-- Start Header Add Cart Box -->
+                            
+                             <!-- End Header Add Cart Box -->
+                            <li><a href="#offcanvas-mobile-menu" class="offcanvas-toggle"><i class="far fa-bars"></i></a></li>
+
+                        </ul>   <!-- End User Action -->
+                    </div>
+                </div>
+            </div>
+        </div> <!--  Start Mobile Header Section   -->
+
+        <!--  Start Mobile-offcanvas Menu Section   -->
+        <div id="offcanvas-mobile-menu" class="offcanvas offcanvas-mobile-menu">
+            <div class="offcanvas__top">
+                <span class="offcanvas__top-text"></span>
+                <button class="offcanvas-close"><i class="fal fa-times"></i></button>
+            </div>
+            
+            <div class="offcanvas-inner">
+                <div class="offcanvas-menu">
+                    <ul>
+                        <li><a href="../index.html"><span>Home</span></a></li>
+                        <li>
+                            <a href="#"><span>Shop</span></a>
+                            <ul class="sub-menu">
+                                <li><a href="spices.html">Spices</a></li>
+                                <li><a href="drygrains.html">Dry Grains</a></li>
+                                <li><a href="rice.html">Rice</a></li>
+                                <li><a href="milkpowder.html">Milk Powder</a></li>
+                                <li><a href="teacoffeandotherbeverages.html">Tea, Coffee & Other Beverages</a></li>
+                                <li><a href="driedfish.html">Dried Fish</a></li>
+                                <li><a href="meatsandfish.html">Meats and Fish</a></li>
+                                <li>
+                                    <a href="#"><span>Processed Foods</span></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="cannedfoods.html">Canned Foods</a></li>
+                                        <li><a href="bottledfoods.html">Bottled Foods</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="rotty.html">Rotty</a></li>
+                                <li><a href="flours.html">Flours</a></li>
+                                <li><a href="various.html">Various</a></li>
+                                <li><a href="biscuitsandsweets.html">Biscuits and Sweets</a></li>
+                                <li><a href="medicines.html">Medicines</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!--  End Mobile-offcanvas Menu Section   -->
+
+        <div class="offcanvas-overlay"></div>
+    </header>
+    <!-- :::::: Start Main Container Wrapper :::::: -->
+    <main id="main-container" class="main-container">
+        <div class="container m-5">
+
+        </div>
+        <div class="container">
+            <div class="row flex-column-reverse flex-lg-row">
+                <!-- Start Leftside - Sidebar Widget -->
+                <div class="col-lg-3">
+                    <div class="sidebar">
+                        <!-- Start Single Sidebar Widget - Filter [Catagory] -->
+                        <div class="sidebar__widget">
+                            <div class="sidebar__box">
+                                <h5 class="sidebar__title">Shop</h5>
+                            </div>
+                            <ul class="sidebar__menu">
+                                
+                               <li class="accordion__title" ><a href="spices.html">Spices</a></li>   
+                               <li class="accordion__title" ><a href="drygrains.html">Dry Grains</a></li>   
+                               <li class="accordion__title" ><a href="rice.html">Rice</a></li> 
+                               <li class="accordion__title" ><a href="milkpowder.html">Milk Powder</a></li> 
+                               <li class="accordion__title" ><a href="teacoffeandotherbeverages.html">Tea, Coffee & Other Beverages</a></li> 
+                               <li class="accordion__title" ><a href="driedfish.html">Dried Fish</a></li> 
+                               <li class="accordion__title" ><a href="meatsandfish.html">Meats and Fish</a></li> 
+                               <li>
+                                    <ul class="sidebar__menu-collapse">
+                                        <!-- Start Single Menu Collapse List -->
+                                        <li class="sidebar__menu-collapse-list">
+                                            <div class="accordion">
+                                                <a href="#" class="accordion__title collapsed" data-bs-toggle="collapse"data-bs-target="#men-fashion" aria-expanded="false">Processed Foods <i class="far fa-chevron-down"></i></a>
+                                                <div id="men-fashion" class="collapse show">
+                                                    <ul class="accordion__category-list">
+                                                        <li><a href="cannedfoods.html">Canned Foods</a></li>
+                                                        <li><a class="text-success" href="bottledfoods.html">Bottled Foods</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li> <!-- End Single Menu Collapse List -->
+                                    </ul>
+                                </li>
+                               <li class="accordion__title" ><a href="rotty.html">Rotty</a></li> 
+                               <li class="accordion__title" ><a href="flours.html">Flours</a></li> 
+                               <li class="accordion__title" ><a href="various.html">Various</a></li> 
+                               <li class="accordion__title" ><a href="biscuitsandsweets.html">Biscuits and Sweets</a></li> 
+                               <li class="accordion__title" ><a href="medicines.html">Medicines</a></li> 
+
+                            </ul>
+                        </div>  <!-- End SSingle Sidebar Widget - Filter [Catagory] -->
+                    </div>
+                </div> <!-- End Left Sidebar Widget -->
+
+                <!-- Start Rightside - Product Type View -->
+                <div class="col-lg-9">
+                    <div class="img-responsive">
+                        <img src="../assets/img/product/bottledfoods/banner.jpg" alt="">
+                    </div>
+
+                    <div class="product-tab-area">
+                        <div class="tab-content tab-animate-zoom">
+                            <div class="tab-pane show active shop-grid" id="sort-grid">
+                                <div class="row">
+                                    <!-- Ambarella Chutney -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/ambarellachutney.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a class="font-weight-bold product__link">Ambarella Chutney</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 500</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Brinjal Pickle  -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <!-- Start Single Default Product -->
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/brinjalpickle.png" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Brinjal Pickle</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 500</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Chilli Sauce -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <!-- Start Single Default Product -->
+                                        <!-- Start Single Default Product -->
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/chillisauce.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Chilli Sauce</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 450</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Fish Ambulthiyal -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/fishambulthiyal.webp" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Fish Ambulthiyal</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 600</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div> 
+                                    <!-- Green Chilli Sauce  -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/greenchillisauce.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Green Chilli Sauce</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 450</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Katta Dry Fish Fried  -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/kattadryfishfried.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Katta Dry Fish Fried</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 600</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Katta Sambol -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/kattasambol.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Katta Sambol</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 600</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Kiiramin Dry Fish Fried  -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/kiiramindryfishfried.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Kiiramin Dry Fish Fried</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 600</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Kithul Treacle [Large]   -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/kithultreacle.webp" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Kithul Treacle Large</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 800</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Kithul Treacle [Small]   -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/kithultreacle.webp" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Kithul Treacle Small</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 450</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Lime Pickle   -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/limepickle.webp" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Lime Pickle </a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 500</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Lunu Miris   -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/lunumiris.webp" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Lunu Miris</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 500</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Maldive Fish Sambol  -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/maldivefishsambol.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Maldive Fish Sambol</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 600</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Mango Chutney  -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/mangochutney.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Mango Chutney</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 500</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Mango Jam  -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/mangojam.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Mango Jam</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 450</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Marmite [Large]  -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/marmite.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Marmite Large</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 1200</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Marmite [Medium]  -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/marmite.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Marmite Medium</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 800</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Marmite [Small]  -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/marmite.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Marmite Small</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 600</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Mix Fruit Jam  -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/mixfruitjam.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Mix Fruit Jam</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 450</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Mustard Cream -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/mustardcream.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Mustard Cream</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 500</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Pineapple Jam  -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/pineapplejam.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Pineapple Jam</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 450</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Polos Curry -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/poloscurry.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Polos Curry</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 500</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Seeni Sambol -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/seenisambol.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Seeni Sambol</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 500</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Sinhala Pickle -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/sinhalapickle.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Sinhala Pickle</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 600</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Sprats Dry Fish Fried -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/spratsdryfishfried.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Sprats Dry Fish Fried</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 600</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Tomato Sauce -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/tomatosauce.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Tomato Sauce</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 450</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                    <!-- Wood Apple Jam -->
+                                    <div class="col-md-4 col-sm-6 col-12">
+                                        <div class="product__box product__default--single text-center">
+                                            <!-- Start Product Image -->
+                                            <div class="product__img-box  pos-relative">
+                                                <a  class="product__img--link">
+                                                    <img class="product__img img-fluid" src="../assets/img/product/bottledfoods/woodapplejam.jpg" alt="">
+                                                </a>
+                                            </div> <!-- End Product Image -->
+                                            <!-- Start Product Content -->
+                                            <div class="product__content m-t-20">
+
+                                                <a  class="font-weight-bold product__link">Wood Apple Jam</a>
+                                                <div class="text-info text- m-t-5">
+                                                    <span>1 Bottle</span>
+                                                </div>
+                                                <div class="text-success m-t-5">
+                                                    <p>¥ 450</p>
+                                                </div>  
+                                            </div> <!-- End Product Content -->
+                                        </div> <!-- End Single Default Product -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  <!-- Start Rightside - Product Type View -->
+            </div>
+        </div>
+        <div class="container m-5">
+
+        </div>
+    </main>  <!-- :::::: End MainContainer Wrapper :::::: -->
+    
+    <!-- ::::::  Start  Footer ::::::  -->
+    <footer class="footer m-t-100">
+        <div class="container">
+            <!-- Start Footer Top Section --> 
+            <div class="footer__top">
+                <div class="row">
+                    <div class="col-lg-4 col-md-5">
+                        <div class="footer__about">
+                            <div class="footer__logo">
+                                <a href="../index.html" class="footer__logo-link">
+                                    <img src="/assets/img/logo/kapruk.png" alt="" class="footer__logo-img">
+                                </a>
+                            </div>
+                            <ul class="footer__address">
+                                <li class="footer__address-item"><i class="fa fa-home"></i>2731-39 Okamicho, Ushiku, Ibaraki 300-1204</li>
+                                <li class="footer__address-item"><i class="fa fa-home"></i>〒300-1204 茨城県牛久市岡見町2731-39</li>
+                                <li class="footer__address-item"><i class="fa fa-phone-alt"></i><a href="tel://+81-80-2128-4734">+81-80-2128-4734</a></li>
+                                <li class="footer__address-item"><i class="fa fa-envelope"></i><a href="mailto://kaprukkenjp@gmail.com">kaprukkenjp@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-sm-6 col-12">
+                        <li class="footer__address-item"><i class="fas fa-qrcode"></i><img width="50%" src="/assets/img/line-QR.jpeg" alt="Line QR"></li>
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-sm-6 col-12">
+                        <div class="footer__menu">
+                            <h4 class="footer__nav-title footer__nav-title--dash footer__nav-title--dash-red">OPENING TIME</h4>
+                            <ul class="footer__nav">
+                                <li class="footer__list">Mon - Fri: 8AM - 9PM</li>
+                                <li class="footer__list">Sat - Sun: 9AM - 10PM</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End Footer Top Section -->
+        </div>
+    </footer> <!-- ::::::  End  Footer ::::::  -->
+    
+    <!-- material-scrolltop button -->
+    <button class="material-scrolltop" type="button"></button>
+
+    <!-- Use the minified version files listed below for better performance and remove the files listed above -->
+    <script src="../assets/js/vendor/vendor.min.js"></script>
+    <script src="../assets/js/plugin/plugins.min.js"></script>
+
+    <!-- Main js file that contents all jQuery plugins activation. -->
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
